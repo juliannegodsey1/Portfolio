@@ -13,19 +13,22 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 function openTab(evt, tabName) {
     var i, tabcontent, tablinks;
 
-    tabcontent = document.getElementsByClassName("tabcontent");
+    tabcontent = document.querySelectorAll(".tab-content .tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
         tabcontent[i].style.display = "none";
     }
 
-    tablinks = document.getElementsByClassName("tablinks");
+    tablinks = document.querySelectorAll(".tab .tablinks");
     for (i = 0; i < tablinks.length; i++) {
         tablinks[i].classList.remove("active");
     }
 
-    document.getElementById(tabName).style.display = "block";
-
+    var selectedTab = document.getElementById(tabName);
+    selectedTab.style.display = "block";
     evt.currentTarget.classList.add("active");
+
+    selectedTab.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
+
 
 

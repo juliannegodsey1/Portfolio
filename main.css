@@ -39,19 +39,43 @@ span {
     color: #a735ff;
 }
 
-.tablinks {
+.tab {
+    display: flex; /* Display tab links inline */
+    align-items: center; /* Align items vertically */
+}
+
+.tablinks  {
     font-size: 16px;
     color: white;
     font-weight: 500;
     margin: 0 20px;
     border-bottom: 3px solid transparent;
     transition: 0.3s ease;
+    cursor: pointer;
 }
 
 .tablinks:hover,
 .tablinks.active {
     color: #a735ff;
     border-bottom: 3px solid #a735ff;
+}
+
+.tabcontent {
+    display: none; 
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+.tabcontent h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.tabcontent p {
+    color: #666;
+    font-size: 16px;
 }
 
 .contact {
