@@ -39,7 +39,7 @@ span {
     color: #a735ff;
 }
 
-.navbar a {
+.tablinks {
     font-size: 16px;
     color: white;
     font-weight: 500;
@@ -48,8 +48,8 @@ span {
     transition: 0.3s ease;
 }
 
-.navbar a:hover,
-.navbar a:active {
+.tablinks:hover,
+.tablinks.active {
     color: #a735ff;
     border-bottom: 3px solid #a735ff;
 }
