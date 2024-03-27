@@ -13,20 +13,19 @@
 
 <body>
     <header class="header">
-        <a href="#" class="logo"><span>Julianne</span> Godsey</a>
+        <a href="#home" class="logo"><span>Julianne</span> Godsey</a>
 
-        <nav class="tab">
-            <nav class="tablinks active" onclick="openTab(event, 'portfolio')">Portfolio</nav>
-            <nav class="tablinks" onclick="openTab(event, 'services')">Services</nav>
-            <nav class="tablinks" onclick="openTab(event, 'experience')">Experience</nav>
-            <nav class="tablinks" onclick="openTab(event, 'projects')">Projects</nav>
-            <nav class="tablinks" onclick="openTab(event, 'education')">Education</nav>
+        <nav class="navbar">
+            <a href="#home" class="active">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="#resume">Resume</a>
         </nav>
-        
+
+       
         <a href="#" class="contact">Contact Me</a>
     </header>
     <main>
-    <section class="home">
+    <section id="home" class="home">
         <div class="home-content">
             <h3>Hi</h3>
 
@@ -34,10 +33,16 @@
 
             <p>Paragraph about me here</p>
             
-            <div class="btn-box">
-                <button class="btn-1">Hire Me</button>
-                <button class="btn-2">Experience</button>
+            <div class="lang-logos">
+                <img src="c-sharp-logo.svg" alt="C#">
+                <img src="css-logo.svg" alt="CSS">
+                <img src="html-logo.svg" alt="HTML">
+                <img src="javascript-logo.svg" alt="JS">
+                <img src="sql-logo.png" alt="SQL">
+                
+
             </div>
+            
         </div>
         
         <div class="img-box">
@@ -46,57 +51,26 @@
     </section>
 
     
-    <section id="about-section" class="about">
-        <div class="about-img">
-            <img src="port-img.jpg" alt="">
+    <section id="projects" class="projects">
+        <div class="projects-content">
+            <h2 class="heading">Projects</h2>
+            <p>Showcase projects </p>
         </div>
+    </section>
 
-        <div class="about-content">
-            <h2 class="heading">About <span>Me</span></h2>
-            <h3>Full Stack <span>Developer</span></h3>
-            <p>Paragraph about me</p>
-            <a href="#" class="btn-2">Experience</a>
+
+    <section id="resume" class="resume">
+        <div class="resume-content">
+            <h2 class="heading">Resume</h2>            
+            <p>Display resume here</p>
         </div>
     </section>
 
     
 </main>
-    <section class="tab-content">
-        <div id="portfolio" class="tabcontent">
-            <div class="tabcontent-content"> 
-            <h3>Portfolio</h3>
-            <p>Content for the Portfolio tab goes here.</p>
-        </div>
-        </div>
     
-        <div id="services" class="tabcontent">
-            <div class="tabcontent-content"> 
-            <h3>Services</h3>
-            <p>Content for the Services tab goes here.</p>
-        </div>
-        </div>
     
-        <div id="experience" class="tabcontent">
-            <div class="tabcontent-content">     
-            <h3>Experience</h3>
-            <p>Content for the Experience tab goes here.</p>
-        </div>
-        </div>
-    
-        <div id="projects" class="tabcontent">
-            <div class="tabcontent-content"> 
-            <h3>Projects</h3>
-            <p>Content for the Projects tab goes here.</p>
-        </div>
-        </div>
-    
-        <div id="education" class="tabcontent">
-            <div class="tabcontent-content"> 
-            <h3>Education</h3>
-            <p>Content for the Education tab goes here.</p>
-        </div>
-        </div>
-    </section>
+      
 
     <section id="contact" class="contact-form">
         <h2 class="contact-me">Contact <span>Me</span></h2>
@@ -128,10 +102,13 @@
 
         <ul class="list">
             <li>
-                <a href="#services">Services</a>
+                <a href="#home">About Me</a>
             </li>
             <li>
-                <a href="#about-section">About Me</a>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#resume">Resume</a>
             </li>
             <li>
                 <a href="#contact">Contact</a>

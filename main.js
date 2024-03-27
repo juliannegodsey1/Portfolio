@@ -8,30 +8,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-
-
-function openTab(evt, tabName) {
-    var i, tabcontent, tablinks;
-
-    tabcontent = document.querySelectorAll(".tab-content .tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-    }
-
-    tablinks = document.querySelectorAll(".tab .tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].classList.remove("active");
-    }
-
-    var selectedTab = document.getElementById(tabName);
-    selectedTab.style.display = "block";
-    evt.currentTarget.classList.add("active");
-
-    selectedTab.scrollIntoView({ behavior: 'smooth', block: 'start' });
-}
-
-
-
 document.addEventListener('DOMContentLoaded', function () {
     const contactButton = document.querySelector('.contact');
 
@@ -44,43 +20,44 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-
 document.addEventListener('DOMContentLoaded', function () {
-    const servicesLink = document.querySelector('footer .list li:nth-child(1) a');
+    const navLinks = document.querySelectorAll('.navbar a');
 
-    servicesLink.addEventListener('click', function (event) {
-        event.preventDefault();
-        openTab(event, 'services');
+    navLinks.forEach(link => {
+        link.addEventListener('click', function (event) {
+            event.preventDefault();
+
+            const targetId = this.getAttribute('href').substring(1);
+            const targetSection = document.getElementById(targetId);
+
+            targetSection.scrollIntoView({ behavior: 'smooth' });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+            });
+
+            this.classList.add('active');
+        });
     });
 });
 
+document.addEventListener('DOMContentLoaded', function () {
+    const footerLinks = document.querySelectorAll('footer .list a');
 
-
-
-document.addEventListener("DOMContentLoaded", function() {
-    var aboutLink = document.querySelector('footer .list li:nth-child(2) a');
-
-    aboutLink.addEventListener('click', function(event) {
-        event.preventDefault();  
-
-            var aboutSection = document.getElementById('about-section');
-
-            aboutSection.scrollIntoView({ behavior: 'smooth' });
-        });
-    });
-
-
-    document.addEventListener('DOMContentLoaded', function () {
-        const contactLink = document.querySelector('footer .list li:nth-child(3) a');
-    
-        contactLink.addEventListener('click', function (event) {
+    footerLinks.forEach(link => {
+        link.addEventListener('click', function (event) {
             event.preventDefault();
-    
-            const contactSection = document.querySelector('#contact');
-    
-            contactSection.scrollIntoView({ behavior: 'smooth' });
+
+            const targetId = this.getAttribute('href').substring(1);
+            const targetSection = document.getElementById(targetId);
+
+            targetSection.scrollIntoView({ behavior: 'smooth' });
+
+            footerLinks.forEach(link => {
+                link.classList.remove('active');
+            });
+
+            this.classList.add('active');
         });
     });
-
-
-   
+});

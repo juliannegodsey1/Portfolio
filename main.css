@@ -39,54 +39,24 @@ span {
     color: #a735ff;
 }
 
-.tab {
-    display: flex; 
-    align-items: center; 
-}
-
-.tablinks  {
-    font-size: 16px;
+.navbar a {
+    font-size: 17px;
     color: white;
-    font-weight: 600;
+    font-weight: 650;
     margin: 0 20px;
     border-bottom: 3px solid transparent;
-    transition: font-size 0.3s ease, padding 0.3s;
-    cursor: pointer;
+    transition: 0.3s ease;
 }
 
-.tablinks:hover {
-    font-size: 17px;
+.navbar a:hover {
     color: #a735ff;
+    font-size: 18px;
 }
 
-.tablinks.active {
-    font-size: 17px;
+.navbar a.active {
     color: #a735ff;
+    font-size: 18px;
     border-bottom: 3px solid #a735ff;
-}
-
-.tabcontent {
-    display: none;
-    padding: 12% 8%;
-    background: black;
-}
-
-.tabcontent-content {
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    gap: 10em;
-}
-
-.tabcontent-content h3 {
-    font-size: 42px;
-    color: white;
-}
-
-.tabcontent-content p {
-    color: white;
-    font-size: 17px;
-    margin: 2em 0 3em;
 }
 
 .contact {
@@ -135,11 +105,19 @@ span {
     margin: 25px 0 30px;
 }
 
-.btn-box {
-    width: 345px;
-    display: flex;
-    gap: 2em;
+
+
+.lang-logos img {
+    margin: 1em;
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s ease; 
 }
+
+.lang-logos img:hover {
+    transform: translateY(-5px); 
+}
+
 
 .btn-1 {
     padding: 13px 25px;
@@ -183,16 +161,9 @@ span {
     width: 325px;
 }
 
-::-webkit-scrollbar-thumb {
-    background-color: #a735ff;
-}
 
-::-webkit-scrollbar-track {
-    background-color: #0000009b;
-    width: 50px;
-}   
 
-.about {
+.projects {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -201,27 +172,49 @@ span {
     background: black;
 }
 
-.about-img img {
-    position: relative;
-    width: 325px;
-    box-shadow: 0 0 25px #a735ff,
-                0 0 25px #a735ff;
-    border-radius: 50%;
-}
 
-.about-content h2 {
-    text-align: left;
+.projects-content h2 {
+    text-align: center;
     color: white;
     font-size: 28px;
 }
 
-.about-content h3 {
+.projects-content h3 {
     font-size: 42px;
     color: white;
 }
 
-.about-content p {
+.projects-content p {
     color: white;
+    font-size: 17px;
+    margin: 2em 0 0;
+}
+
+
+
+.resume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12% 8%;
+    gap: 10em;
+    background: white;
+}
+
+
+.resume-content h2 {
+    text-align: center;
+    color: black;
+    font-size: 28px;
+}
+
+.resume-content h3 {
+    font-size: 42px;
+    color: black;
+}
+
+.resume-content p {
+    color: black;
     font-size: 17px;
     margin: 2em 0 3em;
 }
@@ -279,11 +272,12 @@ span {
     cursor: pointer;
 }
 
-  
+.fa img {
+transition: transform 0.3s ease; 
+}
   
 .fa:hover {
-font-size: 38px;
-width: 38px;
+    transform: translateY(-5px); 
 
 }
 .fa-linkedin {
