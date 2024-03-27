@@ -43,3 +43,44 @@ document.addEventListener('DOMContentLoaded', function () {
         contactSection.scrollIntoView({ behavior: 'smooth' });
     });
 });
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    const servicesLink = document.querySelector('footer .list li:nth-child(1) a');
+
+    servicesLink.addEventListener('click', function (event) {
+        event.preventDefault();
+        openTab(event, 'services');
+    });
+});
+
+
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    var aboutLink = document.querySelector('footer .list li:nth-child(2) a');
+
+    aboutLink.addEventListener('click', function(event) {
+        event.preventDefault();  
+
+            var aboutSection = document.getElementById('about-section');
+
+            aboutSection.scrollIntoView({ behavior: 'smooth' });
+        });
+    });
+
+
+    document.addEventListener('DOMContentLoaded', function () {
+        const contactLink = document.querySelector('footer .list li:nth-child(3) a');
+    
+        contactLink.addEventListener('click', function (event) {
+            event.preventDefault();
+    
+            const contactSection = document.querySelector('#contact');
+    
+            contactSection.scrollIntoView({ behavior: 'smooth' });
+        });
+    });
+
+
+   
