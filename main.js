@@ -32,3 +32,14 @@ function openTab(evt, tabName) {
 
 
 
+document.addEventListener('DOMContentLoaded', function () {
+    const contactButton = document.querySelector('.contact');
+
+    contactButton.addEventListener('click', function (event) {
+        event.preventDefault();
+
+        const contactSection = document.querySelector('#contact');
+
+        contactSection.scrollIntoView({ behavior: 'smooth' });
+    });
+});
