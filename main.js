@@ -8,17 +8,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-document.addEventListener('DOMContentLoaded', function () {
-    const contactButton = document.querySelector('.contact');
 
-    contactButton.addEventListener('click', function (event) {
-        event.preventDefault();
-
-        const contactSection = document.querySelector('#contact');
-
-        contactSection.scrollIntoView({ behavior: 'smooth' });
-    });
-});
 
 document.addEventListener('DOMContentLoaded', function () {
     const navLinks = document.querySelectorAll('.navbar a');
@@ -59,5 +49,87 @@ document.addEventListener('DOMContentLoaded', function () {
 
             this.classList.add('active');
         });
+    });
+});
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    var aboutMeLink = document.getElementById("about-me-link");
+    var aboutMeTab = document.querySelector(".navbar a[href='#home']");
+
+    aboutMeLink.addEventListener("click", function(event) {
+        event.preventDefault(); 
+
+        var navLinks = document.querySelectorAll(".navbar a");
+        navLinks.forEach(function(link) {
+            link.classList.remove("active");
+        });
+
+        aboutMeTab.classList.add("active");
+    });
+});
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    var projectFooterLink = document.getElementById("project-footer-link");
+    var projectTab = document.querySelector(".navbar a[href='#projects']");
+
+    projectFooterLink.addEventListener("click", function(event) {
+        event.preventDefault(); 
+
+        var navLinks = document.querySelectorAll(".navbar a");
+        navLinks.forEach(function(link) {
+            link.classList.remove("active");
+        });
+
+        projectTab.classList.add("active");
+    });
+});
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    var resumeFooterLink = document.getElementById("resume-footer-link");
+    var resumeTab = document.querySelector(".navbar a[href='#resume']");
+
+    resumeFooterLink.addEventListener("click", function(event) {
+        event.preventDefault(); 
+
+        var navLinks = document.querySelectorAll(".navbar a");
+        navLinks.forEach(function(link) {
+            link.classList.remove("active");
+        });
+
+        resumeTab.classList.add("active");
+    });
+});
+
+
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    var logoLink = document.getElementById("name-logo");
+    var aboutMeTab = document.querySelector(".navbar a[href='#home']");
+
+    logoLink.addEventListener("click", function(event) {
+        event.preventDefault(); 
+
+        var navLinks = document.querySelectorAll(".navbar a");
+        navLinks.forEach(function(link) {
+            link.classList.remove("active");
+        });
+
+        aboutMeTab.classList.add("active");
+    });
+});
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    var contactFooterLink = document.getElementById("contact-footer-link");
+
+    contactFooterLink.addEventListener("click", function(event) {
+        event.preventDefault(); 
+
+        var emailAddress = "mailto:juliannegodseyy@gmail.com";
+        window.location.href = emailAddress;
     });
 });

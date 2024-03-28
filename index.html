@@ -6,14 +6,14 @@
     content="width=device-width, initial-scale=1.0">
     <title>Julianne Godsey Portfolio</title>
     <link rel="stylesheet" href="main.css">
-    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" ref="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 
 <body>
     <header class="header">
-        <a href="#home" class="logo"><span>Julianne</span> Godsey</a>
+        <a href="#home" class="logo" id="name-logo"><span>Julianne</span> Godsey</a>
 
         <nav class="navbar">
             <a href="#home" class="active">About Me</a>
@@ -22,101 +22,104 @@
         </nav>
 
        
-        <a href="#" class="contact">Contact Me</a>
+        <a href=mailto:"juliannegodseyy@gmail.com" class="contact">Contact Me</a>
     </header>
+
+
     <main>
-    <section id="home" class="home">
-        <div class="home-content">
-            <h3>Hi</h3>
+        <div>
+            <section id="home" class="home">
+                <div class="home-content">
+                    <h3>Hi</h3>
+                    <h1>I'm <span>Julianne<br></span>a Full Stack Developer</h1>
+                    <p>Self- directed, detail-oriented, and professional C# programmer with experience in 
+                        designing, developing, analyzing, and implementing client-server, web and desktop-based
+                        applications using C# language. Expertise in system designing as well as in testing, 
+                        debugging and modifying related application code. Capable of learning new programming 
+                        languages and technologies and completing projects within specified deadlines.</p>
 
-            <h1>I'm <span>Julianne<br></span>a Full Stack Developer</h1>
+                    <div class="lang-logos">
+                        <img src="c-sharp-logo.svg" alt="C#">
+                        <img src="css-logo.svg" alt="CSS">
+                        <img src="html-logo.svg" alt="HTML">
+                        <img src="javascript-logo.svg" alt="JS">
+                        <img src="sql-logo.png" alt="SQL">
+                    </div>
+                </div>
+                <div class="img-box">
+                    <img src="port-img.jpg" alt="">
+                </div>  
+            </section>
+        </div>
+    
+        <section class="social-bar">
+            <div>            
+                <h2 class="social-heading">Connect</h2>
+            </div>
+            <div class="socials">
+                <a href="https://linkedin.com/in/julianne-godsey" class="social-logos">
+                    <img src="linkedin-logo.svg" alt="LinkedIn-Logo">
+                </a>
+                <a href="https://github.com/juliannegodsey1" class="social-logos">
+                    <img src="github-logo.svg" alt="GitHub-Logo">
+                </a>
+                <a href=mailto:"juliannegodseyy@gmail.com" class="social-logos">
+                    <img src="email-icon.svg" alt="Envelope-Logo">
+                </a>
+            </div>
+        </section>
 
-            <p>Paragraph about me here</p>
-            
-            <div class="lang-logos">
-                <img src="c-sharp-logo.svg" alt="C#">
-                <img src="css-logo.svg" alt="CSS">
-                <img src="html-logo.svg" alt="HTML">
-                <img src="javascript-logo.svg" alt="JS">
-                <img src="sql-logo.png" alt="SQL">
-                
+        <section id="projects" class="projects">
+            <div class="projects-content">
+                <h2 class="heading">Projects</h2>
+                <div>
+                    <div>
+                       <h3>Project 1</h3>
+                       <p>Title of Project</p>
+                       <ul>
+                          <ul style="list-style-type:disc;">
+                             <li>Description of project</li>
+                             <li>Description of project</li>
+                             <li>Description of project</li>
+                          </ul>
+                       </ul>
+     
+                    </div>
+                 </div>
 
             </div>
-            
-        </div>
-        
-        <div class="img-box">
-            <img src="port-img.jpg" alt="">
-        </div>
-    </section>
+        </section>
 
-    
-    <section id="projects" class="projects">
-        <div class="projects-content">
-            <h2 class="heading">Projects</h2>
-            <p>Showcase projects </p>
-        </div>
-    </section>
-
-
-    <section id="resume" class="resume">
-        <div class="resume-content">
-            <h2 class="heading">Resume</h2>            
-            <p>Display resume here</p>
-        </div>
-    </section>
-
-    
-</main>
-    
-    
-      
-
-    <section id="contact" class="contact-form">
-        <h2 class="contact-me">Contact <span>Me</span></h2>
-
-        <div class="socials">
-            <a href="https://linkedin.com/in/julianne-godsey" class="fa fa-linkedin"></a>
-            <a href="https://github.com/juliannegodsey1" class="fa fa-github"></a>
-            <a href=mailto:"juliannegodseyy@gmail.com" class="fa fa-envelope"></a>
-        </div>
-
-        <form action="#">
-
-            <div class="input-box">
-                <input type="text" id="full-name" placeholder="Full Name">
-                <input type="email" id="email-address" placeholder="Email">
+        <section id="resume" class="resume">
+            <div class="resume-content">
+                <h2 class="heading">Resume</h2>            
+                <p>Display resume here</p>
             </div>
-
-            <div class="input-box">
-                <input type="number" id="phone-number" placeholder="Phone Number">
-                <input type="text" id="subject" placeholder="Subject">
-            </div>
-
-            <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
-            <input type="submit" value="Send Message" class="btn-1">
-        </form>
-    </section>
+        </section>
+    </main>
+    
+   
 
     <footer class="footer">
 
         <ul class="list">
             <li>
-                <a href="#home">About Me</a>
+                <a href="#home" id="about-me-link">About Me</a>
             </li>
             <li>
-                <a href="#projects">Projects</a>
+                <a href="#projects" id="project-footer-link">Projects</a>
             </li>
             <li>
-                <a href="#resume">Resume</a>
+                <a href="#resume" id="resume-footer-link">Resume</a>
             </li>
             <li>
-                <a href="#contact">Contact</a>
+                <a href="mailto:juliannegodseyy@gmail.com" id="contact-footer-link">Contact</a>
             </li>
         </ul>
 
         <p class="copyright">© 2024 Julianne Godsey | All Rights Reserved</p>
     </footer>
+
     <script src="main.js"></script>
 </body>
 </html>
