@@ -508,7 +508,7 @@ span {
     .resume {
         padding: 2% 5vw; /* Adjust padding */
         flex-direction: column; /* Stack items vertically */
-        align-items:flex-start; /* Center-align items */
+        align-items: flex-start; /* Center-align items */
         gap: 2rem; /* Reduce gap between items */
 
     }
@@ -556,7 +556,10 @@ span {
     .resume-content h5 {
         font-size: 1.75rem;
         text-align: left;
-        text-decoration: 0.5rem underline;
+        text-decoration: underline;
+        text-decoration-color: white; 
+        text-decoration-thickness: 1px; 
+        text-underline-offset: 2px;
         color: white;
         padding-top: 3rem;
         padding-bottom: 1rem;
