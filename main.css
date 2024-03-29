@@ -84,7 +84,7 @@ span {
     display: flex;
     align-items: center;
     gap: 7em;
-    padding: 30px 12% 0;
+    padding: 50px 12% 0;
 }
 
 .home-content {
@@ -93,6 +93,7 @@ span {
 
 .home-content h3 {
     font-size: 28px;
+    padding-top: 20px;
 }
 
 .home-content h1 {
@@ -267,7 +268,7 @@ span {
     color: white;
     padding-top: 0px;
     padding-bottom: 30px;
-    padding-left: 0;
+    padding-left: 10px;
     padding-right: 0;
     text-decoration: 2px underline;
 
@@ -285,7 +286,7 @@ span {
     font-size: 27px;
     text-align: left;
     color: white;
-    padding-top: 40px;
+    padding-top: 45px;
     padding-bottom: 30px;
     padding-left: 0;
     padding-right: 0;
