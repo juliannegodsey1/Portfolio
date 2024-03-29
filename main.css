@@ -525,17 +525,10 @@ span {
     }
     
     .projects-content h3 {
-        font-size: 1.75rem;
+        font-size: 1.15rem;
         text-align: left;
-        text-decoration: underline;
-        text-decoration-color: black; 
-        text-decoration-thickness: 1px; 
-        text-underline-offset: 2px;
         color: black;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        padding-left: 0;
-        padding-right: 0;
+        font-style: italic;
     }
     
     .projects-content h4 {
