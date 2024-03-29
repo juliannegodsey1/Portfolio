@@ -504,7 +504,7 @@ span {
     /* Adjustments for resume section */
     .resume-content {
         max-width: 100%; /* Make content wider */
-        text-align: left; /* Center-align content */
+        text-align: justify; /* Center-align content */
         padding: 3% 0;
     }
 
@@ -549,7 +549,7 @@ span {
     }
 
     .resume-list {
-        padding: 0; /* Remove padding */
+        padding: 1rem; /* Remove padding */
         text-align: left; 
     }
     
