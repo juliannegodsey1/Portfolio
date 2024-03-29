@@ -446,20 +446,20 @@ span {
     }
 
     .home-content h3 {
-        font-size: 1.75rem;
+        font-size: 1.7rem;
         padding-top: 1.25em;
         text-align: left;
     }
     
     .home-content h1 {
-        font-size: 2rem;
+        font-size: 1.75rem;
         line-height: 1.2;
         text-align: left;
     }
 
     .lang-logos img {
-        width: 1.5rem; /* Adjust size of language logos */
-        height: 1.5rem;
+        width: 2rem; /* Adjust size of language logos */
+        height: 2rem;
         margin: 1em;
     }
 
