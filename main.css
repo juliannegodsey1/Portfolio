@@ -525,7 +525,7 @@ span {
         text-align: left;
         color: white;
         padding-top: 1rem;
-        padding-bottom: 0.75rem;
+        padding-bottom: 1rem;
         padding-left: 0;
         padding-right: 0;
     }
@@ -548,7 +548,7 @@ span {
     }
 
     .resume-list {
-        padding: 1rem; /* Remove padding */
+        padding: 0.5rem; /* Remove padding */
         text-align: left; 
     }
     
