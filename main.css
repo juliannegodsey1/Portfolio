@@ -451,6 +451,15 @@ span {
         margin: 1em;
     }
 
+
+    .img-box img{
+        border-radius: 50%;
+        width: 15rem;
+        box-shadow: 0 0 1rem #a735ff, 
+                    0 0 1rem #a735ff;
+    }
+    
+
     /* Adjustments for social bar section */
     .social-bar {
         padding: 2rem 2vw; /* Adjust padding */
