@@ -501,14 +501,14 @@ span {
     .projects {
         padding: 3% 5vw; /* Adjust padding */
         flex-direction: column; /* Stack items vertically */
-        align-items: center; /* Center-align items */
+        align-items: flex-start; /* Center-align items */
         gap: 3rem; /* Reduce gap between items */
     }
 
     .resume {
         padding: 3% 5vw; /* Adjust padding */
         flex-direction: column; /* Stack items vertically */
-        align-items: center; /* Center-align items */
+        align-items:flex-start; /* Center-align items */
         gap: 3rem; /* Reduce gap between items */
 
     }
@@ -530,7 +530,7 @@ span {
 
     .resume-list {
         padding: 0; /* Remove padding */
-        text-align: center; /* Center-align list items */
+        text-align: left; /* Center-align list items */
     }
     
     /* Adjustments for footer */
