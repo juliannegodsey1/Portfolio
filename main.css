@@ -415,7 +415,10 @@ span {
         display: none; /* Hide the navigation links */
     }
 
-    
+    .contact:hover {
+        background-color: #a735ff;
+        color: white;
+    }
 
     /* Adjustments for home section */
     .home {
