@@ -282,17 +282,6 @@ span {
 }
 
 
-.resume-content h5 {
-    font-size: 1.6875rem;
-    text-align: left;
-    color: white;
-    padding-top: 2.8125rem;
-    padding-bottom: 1.875rem;
-    padding-left: 0;
-    padding-right: 0;
-    text-decoration: 0.125rem underline;
-
-}
 
 .resume-content p {
     color: white;
@@ -506,10 +495,10 @@ span {
     }
 
     .resume {
-        padding: 3% 5vw; /* Adjust padding */
+        padding: 2% 5vw; /* Adjust padding */
         flex-direction: column; /* Stack items vertically */
         align-items:flex-start; /* Center-align items */
-        gap: 3rem; /* Reduce gap between items */
+        gap: 2rem; /* Reduce gap between items */
 
     }
     /* Adjustments for resume section */
@@ -517,6 +506,37 @@ span {
         max-width: 100%; /* Make content wider */
         text-align: left; /* Center-align content */
         padding: 3% 0;
+    }
+
+
+    .resume-content h2 {
+        text-align: left;
+        color: white;
+        font-size: 1.5rem;
+        margin: 1em 0;
+        padding-top: 0.625rem;
+        padding-bottom: 1.25rem;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .resume-content h3 {
+        font-size: 1.25rem;
+        text-align: left;
+        color: white;
+        padding-top: 0;
+        padding-bottom: 1.875rem;
+        padding-left: 0.625rem;
+        padding-right: 0;
+        text-decoration: 0.125rem underline;
+    
+    }
+    
+    .resume-content h4 {
+        font-size: 1.15rem;
+        text-align: left;
+        color: white;
+        font-style: italic;
     }
 
     .resume-item {
@@ -530,7 +550,7 @@ span {
 
     .resume-list {
         padding: 0; /* Remove padding */
-        text-align: left; /* Center-align list items */
+        text-align: left; 
     }
     
     /* Adjustments for footer */
