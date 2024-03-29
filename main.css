@@ -442,7 +442,7 @@ span {
     .home-content {
         max-width: 90%; /* Make content wider */
         text-align: center; /* Center-align content */
-        gap: 3rem; /* Reduce gap between items */
+        gap: 2rem; /* Reduce gap between items */
     }
 
     .home-content h3 {
@@ -495,7 +495,7 @@ span {
 
     .project {
         margin: 1em 0; /* Adjust margin */
-        width: 90%;
+        width: 100%;
     }
 
     .projects {
@@ -514,14 +514,14 @@ span {
     }
     /* Adjustments for resume section */
     .resume-content {
-        max-width: 95%; /* Make content wider */
+        max-width: 100%; /* Make content wider */
         text-align: left; /* Center-align content */
         padding: 3% 0;
     }
 
     .resume-item {
         margin: 1em 0; /* Adjust margin */
-        width: 90%;
+        width: 100%;
     }
 
     .resume-list li {
