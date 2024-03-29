@@ -445,6 +445,16 @@ span {
         gap: 3rem; /* Reduce gap between items */
     }
 
+    .home-content h3 {
+        font-size: 1.75rem;
+        padding-top: 1.25em;
+    }
+    
+    .home-content h1 {
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+
     .lang-logos img {
         width: 3rem; /* Adjust size of language logos */
         height: 3rem;
