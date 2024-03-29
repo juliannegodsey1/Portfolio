@@ -436,7 +436,7 @@ span {
     .home {
         padding: 5rem 5vw; 
         flex-direction: column; 
-        gap: 2em;
+        gap: 4em;
     }
 
     .home-content {
