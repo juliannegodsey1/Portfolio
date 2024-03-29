@@ -539,12 +539,12 @@ span {
     }
 
     .resume-item {
-        margin: 1em 0; /* Adjust margin */
+        margin: 0.5em 0; /* Adjust margin */
         width: 100%;
     }
 
     .resume-list li {
-        padding: 0.25em 0; /* Adjust padding */
+        padding: 0.15em 0; /* Adjust padding */
     }
 
     .resume-list {
