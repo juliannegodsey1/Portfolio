@@ -189,63 +189,109 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 6% 4%;
+    padding: 4% 86px;
     gap: 10em;
     background: white;
 }
 
 
 .projects-content h2 {
-    text-align: center;
+    text-align: left;
     color: black;
     font-size: 28px;
     margin: 1em 0 1em;
-
+    padding: 1% 0;
 }
 
 .projects-content h3 {
     font-size: 24px;
-    text-align: center;
+    text-align: left;
     color: black;
+    padding: 1px 2px;
+    font-style: italic;
 
 }
 
 .projects-content p {
     color: black;
-    text-align: center;
+    text-align: left;
     font-size: 17px;
     margin: 2em 0 0;
 }
 
 
+.project {
+    padding: 1% 0;
+    margin-top: 1em;
+    margin-right: 0;
+    margin-bottom: 1em;
+    margin-left: 1em;}
+
+.list li {
+    padding: 5px 0;
+    list-style-type: disc;
+    color: #5f5e5e;
+}
+
+.list {
+    padding: 0px 40px;
+}
+
 
 .resume {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
-    padding: 6% 4%;
+    padding: 4% 86px;
     gap: 10em;
     background: black;
 }
 
 
 .resume-content h2 {
-    text-align: center;
+    text-align: left;
     color: white;
-    font-size: 28px;
+    font-size: 29px;
+    margin: 1em 0 1em;
+    padding: 24px 0;
 }
 
 .resume-content h3 {
     font-size: 24px;
+    text-align: left;
     color: white;
+    padding: 1px 2px;
+    font-style: italic;
+
 }
 
 .resume-content p {
-    text-align: center;
     color: white;
+    text-align: left;
     font-size: 17px;
-    margin: 2em 0 3em;
+    margin: 2em 0 0;
 }
+
+
+.resume-item {
+    padding: 1% 0;
+    margin-top: 1em;
+margin-right: 0;
+margin-bottom: 3em;
+margin-left: 1em;
+}
+
+.resume-list li {
+    padding: 5px 0;
+    list-style-type: disc;
+    color: #c8c8c8;
+}
+
+.resume-list {
+    padding: 0px 40px;
+}
+
+
 
 
 .social-heading {

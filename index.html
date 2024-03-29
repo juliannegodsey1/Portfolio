@@ -71,29 +71,104 @@
 
         <section id="projects" class="projects">
             <div class="projects-content">
-                <h2 class="heading">Projects</h2>
-                <div>
-                    <div>
-                       <h3>Project 1</h3>
-                       <p>Title of Project</p>
-                       <ul>
-                          <ul style="list-style-type:disc;">
-                             <li>Description of project</li>
-                             <li>Description of project</li>
-                             <li>Description of project</li>
-                          </ul>
+                <h2>Projects</h2>
+                    <div class="project">
+                       <h3>CSV Parsing and Geolocation TDD Project: C#</h3>
+                        <ul class="list">
+                            <li>Application developed in Visual Studio using C#, .Net Core, and xUnit testing</li>
+                            <li>Processes data from a CSV document containing city names and their corresponding 
+                                coordinates for various restaurants.</li>
+                            <li>The application parses each line of the document into an array format, capturing the 
+                                location name, latitude, and longitude.</li>
+                            <li>Test-driven development ensures that invalid and missing data is handled correctly</li>
+                            <li>If the data is out of bounds or cannot be parsed, then the parse method returns null. 
+                                Otherwise, the latitude and longitude are parsed</li>
+                            <li>Utilizing the parsed coordinates, the application calculates the distances between each 
+                                pair in order to find the two restaurants furthest apart</li>
                        </ul>
-     
                     </div>
-                 </div>
 
+                    <div class="project">
+                        <h3>KanyeREST: C# | .NET Core | JSON | API</h3>
+                         <ul class="list">
+                             <li>The application simulates a dialogue between Kanye West and Ron Swanson by utilizing 
+                                API requests</li>
+                             <li>Employing the Newtonsoft.JSON NuGet package, the program fetches data from the Kanye 
+                                URL and converts the JSON object into a string termed "kanyeQuote"</li>
+                             <li>Similarly, the application accesses the Ron Swanson API, converting the received JSON 
+                                Array into a string labeled "swansonQuote"</li>
+                             <li>The application then alternates between calling the Kanye API and the Ron Swanson API 
+                                to simulate a conversation</li>
+                        </ul>
+                     </div>
+
+                     <div class="project">
+                        <h3>CRUD Product Database Website: ASP.NET MVC | C# | HTML | CSS | SQL</h3>
+                         <ul class="list">
+                             <li>Created a product database model with a product ID, name, price, category ID, on sale, 
+                                and stock level properties in C#.  Created a view product model to display the product 
+                                information </li>
+                             <li>Created an product repository in C# with CRUD methods for inserting new products, 
+                                displaying a list of products, updating existing products and deleting products</li>
+                             <li>Used SQL commands and connections in each CRUD method for inserting, displaying, 
+                                updating and deleting products</li>
+                             <li>Used HTML and CSS to create view pages with a page for each product and a page to display 
+                                all products. Created corresponding controllers for the view pages</li>
+                        </ul>
+                     </div>
+
+                     <div class="project">
+                        <h3>Task List Web Application: HTML | CSS | JavaScript</h3>
+                         <ul class="list">
+                             <li>Bullet point</li>
+                             <li>Bullet point</li>
+                             <li>Bullet point</li>
+                             <li>Bullet point</li>
+                             <li>Bullet point</li>
+                             <li>Bullet point</li>
+                        </ul>
+                     </div>
             </div>
         </section>
 
         <section id="resume" class="resume">
             <div class="resume-content">
-                <h2 class="heading">Resume</h2>            
-                <p>Display resume here</p>
+                <h2>Resume</h2>
+                    <div class="resume-item">
+                       <h3>Place of Work</h3>
+                        <ul class="resume-list">
+                            <li>Bullet point</li>
+                             <li>Bullet point</li>
+                             <li>Bullet point</li>
+                             <li>Bullet point</li>
+                             <li>Bullet point</li>
+                             <li>Bullet point</li>
+                       </ul>
+                    </div>
+
+<div class="resume-item">
+                       <h3>Place of Work</h3>
+                        <ul class="resume-list">
+                            <li>Bullet point</li>
+                             <li>Bullet point</li>
+                             <li>Bullet point</li>
+                             <li>Bullet point</li>
+                             <li>Bullet point</li>
+                             <li>Bullet point</li>
+                       </ul>
+                    </div>
+
+<div class="resume-item">
+                       <h3>Place of Work</h3>
+                        <ul class="resume-list">
+                            <li>Bullet point</li>
+                             <li>Bullet point</li>
+                             <li>Bullet point</li>
+                             <li>Bullet point</li>
+                             <li>Bullet point</li>
+                             <li>Bullet point</li>
+                       </ul>
+                    </div>
             </div>
         </section>
     </main>
