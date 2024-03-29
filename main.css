@@ -435,7 +435,7 @@ span {
 
     /* Adjustments for home section */
     .home {
-        padding: 2rem 5vw; /* Increase padding */
+        padding: 5rem 5vw; /* Increase padding */
         flex-direction: column; /* Stack items vertically */
     }
 
