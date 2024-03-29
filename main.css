@@ -512,7 +512,7 @@ span {
     .resume-content h2 {
         text-align: left;
         color: white;
-        font-size: 1.75rem;
+        font-size: 2rem;
         margin: 0;
         padding-top: 2rem;
         padding-bottom: 1.5rem;
@@ -521,14 +521,13 @@ span {
     }
     
     .resume-content h3 {
-        font-size: 1.5rem;
+        font-size: 1.75rem;
         text-align: left;
         color: white;
         padding-top: 1rem;
         padding-bottom: 0.75rem;
         padding-left: 0;
         padding-right: 0;
-        text-decoration: 0.125rem solid white underline;
     }
     
     .resume-content h4 {
