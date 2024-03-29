@@ -513,7 +513,7 @@ span {
         text-align: left;
         color: white;
         font-size: 1.5rem;
-        margin: 1em 0;
+        margin: 0;
         padding-top: 0.625rem;
         padding-bottom: 1.25rem;
         padding-left: 0;
@@ -525,8 +525,8 @@ span {
         text-align: left;
         color: white;
         padding-top: 0;
-        padding-bottom: 1.875rem;
-        padding-left: 0.625rem;
+        padding-bottom: 1rem;
+        padding-left: 0.25rem;
         padding-right: 0;
         text-decoration: 0.125rem underline;
     
