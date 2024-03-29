@@ -468,6 +468,7 @@ span {
         width: 15rem;
         box-shadow: 0 0 1rem #a735ff, 
                     0 0 1rem #a735ff;
+        padding-top: -2rem;
     }
     
 
