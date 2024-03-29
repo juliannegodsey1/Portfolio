@@ -538,7 +538,7 @@ span {
         text-decoration: underline;
         text-decoration-color: white; 
         text-decoration-thickness: 1px; 
-        text-underline-offset: 1px;
+        text-underline-offset: 2px;
         color: white;
         padding-top: 1rem;
         padding-bottom: 1rem;
