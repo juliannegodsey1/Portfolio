@@ -103,6 +103,8 @@ span {
 .home-content p {
     font-size: 17px;
     margin: 25px 0 30px;
+    line-height: 25px;
+    text-align: justify;
 }
 
 
@@ -251,17 +253,43 @@ span {
 .resume-content h2 {
     text-align: left;
     color: white;
-    font-size: 29px;
+    font-size: 30px;
     margin: 1em 0 1em;
-    padding: 24px 0;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .resume-content h3 {
-    font-size: 24px;
+    font-size: 27px;
     text-align: left;
     color: white;
-    padding: 1px 2px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    padding-left: 0;
+    padding-right: 0;
+    text-decoration: 2px underline;
+
+}
+
+.resume-content h4 {
+    font-size: 21px;
+    text-align: left;
+    color: white;
     font-style: italic;
+}
+
+
+.resume-content h5 {
+    font-size: 27px;
+    text-align: left;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-left: 0;
+    padding-right: 0;
+    text-decoration: 2px underline;
 
 }
 
@@ -275,14 +303,14 @@ span {
 
 .resume-item {
     padding: 1% 0;
-    margin-top: 1em;
+    margin-top: 1px;
 margin-right: 0;
-margin-bottom: 3em;
+margin-bottom: 1em;
 margin-left: 1em;
 }
 
 .resume-list li {
-    padding: 5px 0;
+    padding: 4px 0;
     list-style-type: disc;
     color: #c8c8c8;
 }
