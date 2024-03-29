@@ -514,8 +514,8 @@ span {
         color: white;
         font-size: 1.75rem;
         margin: 0;
-        padding-top: 0.625rem;
-        padding-bottom: 1.35rem;
+        padding-top: 0.75rem;
+        padding-bottom: 1.5rem;
         padding-left: 0;
         padding-right: 0;
     }
@@ -525,7 +525,7 @@ span {
         text-align: left;
         color: white;
         padding-top: 0;
-        padding-bottom: 0.5rem;
+        padding-bottom: 0.75rem;
         padding-left: 0;
         padding-right: 0;
         text-decoration: 0.125rem solid white underline;
@@ -538,9 +538,6 @@ span {
         font-style: italic;
     }
 
-    .resume-content p {
-        text-align: justify;
-    }
 
     .resume-item {
         margin: 0.5em 0; /* Adjust margin */
