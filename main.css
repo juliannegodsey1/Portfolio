@@ -468,7 +468,7 @@ span {
     /* Adjustments for resume section */
     .resume-content {
         padding: 3% 5vw; /* Adjust padding */
-        align-items: flex-start;
+        justify-content: center;
     }
 
     .resume-item {
