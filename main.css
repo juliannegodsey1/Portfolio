@@ -233,7 +233,7 @@ span {
 .list li {
     padding: 0.3125em 0;
     list-style-type: disc;
-    color: #5f5e5e;
+    color: #515151;
 }
 
 .list {
@@ -520,7 +520,7 @@ span {
         font-size: 2rem;
         margin: 0;
         padding-top: 2rem;
-        padding-bottom: 2.2rem;
+        padding-bottom: 2.1rem;
         padding-left: 0;
         padding-right: 0;
     }
