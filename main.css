@@ -461,6 +461,10 @@ span {
         margin: 1em 0; /* Adjust margin */
     }
 
+    .resume {
+        align-items: left;
+
+    }
     /* Adjustments for resume section */
     .resume-content {
         padding: 3% 5vw; /* Adjust padding */
