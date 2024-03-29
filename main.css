@@ -434,6 +434,7 @@ span {
     .lang-logos img {
         width: 3rem; /* Adjust size of language logos */
         height: 3rem;
+        margin: 0.5em;
     }
 
     /* Adjustments for social bar section */
