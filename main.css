@@ -281,6 +281,17 @@ span {
     font-style: italic;
 }
 
+.resume-content h5 {
+    font-size: 1.688rem;
+    text-align: left;
+    color: white;
+    padding-top: 0;
+    padding-bottom: 1.875rem;
+    padding-left: 0.625rem;
+    padding-right: 0;
+    text-decoration: 0.125rem underline;
+
+}
 
 
 .resume-content p {
@@ -506,13 +517,14 @@ span {
         max-width: 100%; /* Make content wider */
         text-align: justify; /* Center-align content */
         padding: 3% 0;
+        padding-bottom: 2rem;
     }
 
 
     .resume-content h2 {
         text-align: left;
         color: white;
-        font-size: 3rem;
+        font-size: 2.5rem;
         margin: 0;
         padding-top: 2rem;
         padding-bottom: 2rem;
@@ -536,6 +548,17 @@ span {
         text-align: left;
         color: white;
         font-style: italic;
+    }
+
+    .resume-content h5 {
+        font-size: 1.75rem;
+        text-align: left;
+        text-decoration: 0.5rem underline;
+        color: white;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+        padding-left: 0;
+        padding-right: 0;
     }
 
 
