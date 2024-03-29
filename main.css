@@ -430,6 +430,7 @@ span {
     .contact:hover {
         background-color: #a735ff;
         color: white;
+        box-shadow: none;
     }
 
     /* Adjustments for home section */
