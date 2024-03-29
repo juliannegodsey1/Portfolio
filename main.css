@@ -538,6 +538,10 @@ span {
         font-style: italic;
     }
 
+    .resume-content p {
+        text-align: justify;
+    }
+
     .resume-item {
         margin: 0.5em 0; /* Adjust margin */
         width: 100%;
