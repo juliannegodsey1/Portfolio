@@ -415,9 +415,7 @@ span {
         display: none; /* Hide the navigation links */
     }
 
-    .contact {
-        display: none; /* Hide the contact button */
-    }
+    
 
     /* Adjustments for home section */
     .home {
