@@ -490,7 +490,7 @@ span {
 
     /* Adjustments for projects section */
     .projects-content {
-        padding: 3% 5vw; /* Adjust padding */
+        padding: 3% 10vw; /* Adjust padding */
     }
 
     .project {
@@ -514,8 +514,9 @@ span {
     }
     /* Adjustments for resume section */
     .resume-content {
-        max-width: 90%; /* Make content wider */
+        max-width: 95%; /* Make content wider */
         text-align: center; /* Center-align content */
+        padding: 3% 10vw;
     }
 
     .resume-item {
