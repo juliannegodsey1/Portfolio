@@ -535,7 +535,9 @@ span {
     .resume-content h3 {
         font-size: 1.75rem;
         text-align: left;
-        text-decoration: 0.5rem underline;
+        text-decoration: underline;
+        text-decoration-color: white; 
+        text-decoration-thickness: 1px; 
         color: white;
         padding-top: 1rem;
         padding-bottom: 1rem;
