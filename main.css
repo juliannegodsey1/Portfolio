@@ -459,26 +459,43 @@ span {
 
     .project {
         margin: 1em 0; /* Adjust margin */
+        width: 90%;
+    }
+
+    .projects {
+        padding: 3% 5vw; /* Adjust padding */
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center-align items */
+        gap: 3rem; /* Reduce gap between items */
     }
 
     .resume {
-        align-items: left;
+        padding: 3% 5vw; /* Adjust padding */
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center-align items */
+        gap: 3rem; /* Reduce gap between items */
 
     }
     /* Adjustments for resume section */
     .resume-content {
-        padding: 3% 5vw; /* Adjust padding */
-        justify-content: center;
+        max-width: 90%; /* Make content wider */
+        text-align: center; /* Center-align content */
     }
 
     .resume-item {
-        margin: 0.5em 0; /* Adjust margin */
+        margin: 1em 0; /* Adjust margin */
+        width: 90%;
     }
 
     .resume-list li {
         padding: 0.25em 0; /* Adjust padding */
     }
 
+    .resume-list {
+        padding: 0; /* Remove padding */
+        text-align: center; /* Center-align list items */
+    }
+    
     /* Adjustments for footer */
     .footer ul {
         padding: 0; /* Remove padding */
