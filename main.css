@@ -216,8 +216,12 @@ span {
 }
 
 .projects-content a {
-    size: 1.25rem;
+    size: 1rem;
     color: #a735ff;
+}
+
+.projects-content a:hover {
+    border-bottom: 0.1875rem solid #a735ff;
 }
 
 .projects-content p {
