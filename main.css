@@ -221,8 +221,8 @@ span {
 }
 
 .projects-content a:hover {
-    border-bottom: 0.1875rem solid #a735ff;
-    font-size: 1.5rem;
+    color: #a735ffb4;
+    border-bottom: 0.1875rem solid #a735ffb4;
 }
 
 .projects-content p {
