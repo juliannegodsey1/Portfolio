@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Julianne Godsey Portfolio</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+</head>
+
+
+<body>
+    <header class="header">
+        <a href="#home" class="logo" id="name-logo"><span>Julianne</span> Godsey</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="#resume">Resume</a>
+        </nav>
+
+       
+        <a href=mailto:"juliannegodseyy@gmail.com" class="contact">Contact Me</a>
+    </header>
+
+
+    <main>
+        <div>
+            <section id="home" class="home">
+                <div class="home-content">
+                    <h3>Hi</h3>
+                    <h1>I'm <span>Julianne<br></span>a Full Stack Developer</h1>
+                    <p>Self- directed, detail-oriented, and professional full stack developer with experience in 
+                        designing, developing, analyzing, and implementing client-server, web and desktop-based
+                        applications using various programming languages. Expertise in system designing as well as in testing, 
+                        debugging and modifying related application code. Capable of learning new programming 
+                        languages and technologies and completing projects within specified deadlines.</p>
+
+                    <div class="lang-logos">
+                        <img src="c-sharp-logo.svg" alt="C#">
+                        <img src="css-logo.svg" alt="CSS">
+                        <img src="html-logo.svg" alt="HTML">
+                        <img src="javascript-logo.svg" alt="JS">
+                        <img src="sql-logo.png" alt="SQL">
+                        <img src="aws-logo.svg" alt="AWS">
+                    </div>
+                </div>
+                <div class="img-box">
+                    <img src="port-img.jpg" alt="">
+                </div>  
+            </section>
+        </div>
+    
+        <section class="social-bar">
+            <div>            
+                <h2 class="social-heading">Connect</h2>
+            </div>
+            <div class="socials">
+                <a href="https://linkedin.com/in/julianne-godsey" class="social-logos">
+                    <img src="linkedin-logo.svg" alt="LinkedIn-Logo">
+                </a>
+                <a href="https://github.com/juliannegodsey1" class="social-logos">
+                    <img src="github-logo.svg" alt="GitHub-Logo">
+                </a>
+                <a href=mailto:"juliannegodseyy@gmail.com" class="social-logos">
+                    <img src="email-icon.svg" alt="Envelope-Logo">
+                </a>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="projects-content">
+                <h2>Projects</h2>
+
+                <div class="project">
+                    <h3>CRUD Cat Adoption Database Website: ASP.NET MVC | C# | HTML | CSS | SQL</h3>
+                     <ul class="list">
+                         <li>Created a cat database model with properties such as PetID, name, age, neutered 
+                            status, good with other pets status, sex, and picture URL in C#. </li>
+                         <li>Developed a view model to present detailed information about each cat available 
+                            for adoption.</li>
+                         <li>Established a cat repository in C# with CRUD (Create, Read, Update, Delete) methods 
+                            for managing cat data, including adding new cats, listing all available cats, updating 
+                            existing cat information, and removing cats from the adoption center.</li>
+                         <li>Utilized SQL commands and database connections within each CRUD method to perform 
+                            operations such as inserting, retrieving, updating, and deleting cat records.</li>
+                            <li>Employed HTML and CSS to design view pages for displaying individual cat profiles 
+                                and a comprehensive catalog of all cats available for adoption. Corresponding 
+                                controllers were implemented to handle requests and responses for the view pages.</li>
+                    </ul>
+                 </div>
+
+                    <div class="project">
+                       <h3>CSV Parsing and Geolocation TDD Project: C#</h3>
+                        <ul class="list">
+                            <li>Application developed in Visual Studio using C#, .Net Core, and xUnit testing</li>
+                            <li>Processes data from a CSV document containing city names and their corresponding 
+                                coordinates for various restaurants.</li>
+                            <li>The application parses each line of the document into an array format, capturing the 
+                                location name, latitude, and longitude.</li>
+                            <li>Test-driven development ensures that invalid and missing data is handled correctly</li>
+                            <li>If the data is out of bounds or cannot be parsed, then the parse method returns null. 
+                                Otherwise, the latitude and longitude are parsed</li>
+                            <li>Utilizing the parsed coordinates, the application calculates the distances between each 
+                                pair in order to find the two restaurants furthest apart</li>
+                       </ul>
+                    </div>
+
+                    <div class="project">
+                        <h3>KanyeREST: C# | .NET Core | JSON | API</h3>
+                         <ul class="list">
+                             <li>The application simulates a dialogue between Kanye West and Ron Swanson by utilizing 
+                                API requests</li>
+                             <li>Employing the Newtonsoft.JSON NuGet package, the program fetches data from the Kanye 
+                                URL and converts the JSON object into a string termed "kanyeQuote"</li>
+                             <li>Similarly, the application accesses the Ron Swanson API, converting the received JSON 
+                                Array into a string labeled "swansonQuote"</li>
+                             <li>The application then alternates between calling the Kanye API and the Ron Swanson API 
+                                to simulate a conversation</li>
+                        </ul>
+                     </div>
+
+
+                     <div class="project">
+                        <h3>Task List Web Application: HTML | CSS | JavaScript</h3>
+                         <ul class="list">
+                             <li>Created a web application that provides the user with an interface to create tasks in a 
+                                task list</li>
+                             <li>Utilizes local storage as to allow users to save their tasks upon refreshing the page</li>
+                             <li>Implements CRUD functionality as the user can create tasks, update them, save them and 
+                                delete them</li>
+                             <li>Used HTML and CSS to set up and style the application with corresponding JavaScript functions 
+                                to employ functionality</li>
+                        </ul>
+                     </div>
+
+
+                     <div class="project">
+                        <h3>Virtual Keyboard App: HTML | CSS | JavaScript | <a href="https://github.com/juliannegodsey1/Keyboard-App">LINK</a></h3>
+                         <ul class="list">
+                             <li>Enables users to input text on webpages via a virtual keyboard interface.</li>
+                             <li>Developed using HTML, CSS, and JavaScript to ensure a dynamic and interactive user experience.</li>
+                             <li>Supports user interactions through mouse clicks and touch events, catering to various devices.m</li>
+                             <li>Features include essential functionalities such as caps lock, backspace, enter, and space keys, enhancing usability.</li>
+                             <li>Offers seamless integration into webpages with straightforward HTML setup and inclusion of provided JavaScript and CSS resources.</li>
+                        </ul>
+                     </div>
+            </div>
+        </section>
+
+        <section id="resume" class="resume">
+            <div class="resume-content">
+                <h2>Resume</h2>
+                <h3>Certifications</h3>
+                <div class="resume-item">
+                    <h4>Full Stack Software Engineering | TrueCoders Coding Academy | September 2023-April 2024</h4>
+                     <ul class="resume-list">
+                         <li>Certification for the successful learning and achieving proficiency in C#, SQL, HTML, CSS, JavaScript, & ASP.Net MVC</li>
+                     </ul>
+                 </div>
+                <h3>Education</h3>
+                    <div class="resume-item">
+                       <h4>TrueCoders: Advanced Technical Training | Birmingham, AL | 2023-2024</h4>
+                        <ul class="resume-list">
+                            <li>Project-based training in programming languages and other technical 
+                                skills, such as SQL, C#, .NET Core, Git, ASP.NET MVC, HTML, CSS, and 
+                                JavaScript, developed by building multiple C# and SQL projects in Visual 
+                                Studio and Visual Studio Code</li>
+                             <li>C# and SQL Projects were tracked in Git and GitHub for source control</li>
+                             <li>Managed SQL databases using the CRUD operations in MySQL</li>
+                        </ul>
+                    </div>
+                    <div class="resume-item">
+                       <h4>Kean University | Union, NJ | 2019-2020</h4>
+                        <ul class="resume-list">
+                            <li>Bachelor's in Psychology</li>
+                             <li>Magna Cum Laude</li>
+                        </ul>
+                     </div>
+                     <div class="resume-item">
+                        <h4>Union County College | Cranford, NJ | 2016-2018</h4>
+                        <ul class="resume-list">
+                             <li>Associate's in Psychology</li>
+                             <li>Honor's Society</li>
+                       </ul>
+                    </div>
+
+                    <h5>Work Experience</h5>
+                    <div class="resume-item">
+                          <h4>Private Nanny | NJ | 2019-Current</h4>
+                        <ul class="resume-list">
+                            <li>Safely transport children to and from activities and school</li>
+                            <li>Coordinate engaging activities to stimulate their development</li>
+                            <li>Assist with homework assignments and ensure completion</li>
+                            <li>Maintain a safe environment and prioritize children's well-being</li>
+                            <li>Engage in interactive play to encourage learning and creativity</li>
+                            <li>Prepare nutritious snacks and light meals for the children</li>
+                       </ul>
+                    </div>
+                    <div class="resume-item">
+                        <h4>Assistant Teacher | LightBridge Academy | Westfield, NJ | 2019</h4>
+                      <ul class="resume-list">
+                          <li>Assisted in implementing lessons and classroom activities for children 
+                            aged 2.5-3.5 years old</li>
+                          <li>Facilitated lunchtime routines and ensured safe food handling practices, 
+                            especially for children with allergies</li>
+                          <li>Received CPR training for infants, children, and adults to ensure readiness 
+                            in case of emergencies</li>
+                          <li>Monitored children closely to ensure their safety and well-being throughout the day</li>
+                          <li>Provided assistance with potty training and supported children in developing independence</li>
+                          <li>Coordinated educational and fun activities to promote learning and engagement</li>
+                          <li>Utilized a dedicated app to provide parents with real-time updates on their child's activities 
+                            and development</li>
+                          <li>Collaborated closely with the main teacher to support the overall classroom environment</li>
+                     </ul>
+                  </div>
+                  <div class="resume-item">
+                    <h4>Team Member | QuickChek | Clark, NJ | 2015-2019</h4>
+                  <ul class="resume-list">
+                      <li>Provided exceptional customer service by greeting customers, assisting with inquiries, and ensuring 
+                        a positive experience</li>
+                      <li>Operated cash registers and handled transactions accurately and efficiently</li>
+                      <li>Responsible for counting the safe and ensuring accurate cash management</li>
+                      <li>Stocked shelves, rotated inventory, and maintained a clean and organized store environment</li>
+                      <li>Prepared food and beverages according to company standards and customer preferences</li>
+                      <li>Followed proper food safety and sanitation procedures to maintain product quality and freshness</li>
+                      <li>Collaborated with team members to achieve store goals and targets</li>
+                      <li>Demonstrated strong multitasking abilities and effective time management skills to handle various 
+                        responsibilities simultaneously</li>
+                      <li>Participated in training programs to enhance product knowledge and customer service skills</li>
+                      <li>Demonstrated flexibility in performing various tasks as needed to support store operations</li>
+
+                 </ul>
+              </div>
+            </div>
+        </section>
+    </main>
+    
+   
+
+    <footer class="footer">
+
+        <ul class="list">
+            <li>
+                <a href="#home" id="about-me-link">About Me</a>
+            </li>
+            <li>
+                <a href="#projects" id="project-footer-link">Projects</a>
+            </li>
+            <li>
+                <a href="#resume" id="resume-footer-link">Resume</a>
+            </li>
+            <li>
+                <a href="mailto:juliannegodseyy@gmail.com" id="contact-footer-link">Contact</a>
+            </li>
+        </ul>
+
+        <p class="copyright">© 2024 Julianne Godsey | All Rights Reserved</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
