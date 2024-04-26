@@ -215,6 +215,11 @@ span {
 
 }
 
+.projects-content a {
+    size: 1.25rem;
+    color: #a735ff;
+}
+
 .projects-content p {
     color: black;
     text-align: left;
