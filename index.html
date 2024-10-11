@@ -6,9 +6,13 @@
     content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <title>Julianne Godsey Portfolio</title>
     <link rel="stylesheet" href="main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-oOHXSEgF4AYrD4wwNfZPd2F7gdbfTyzPTZyUhuBOvKxtkGu5smGLbuI9I1DJF8L2" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap" rel="stylesheet">
 </head>
 
 
@@ -17,90 +21,103 @@
         <a href="#home" class="logo" id="name-logo"><span>Julianne</span> Godsey</a>
 
         <nav class="navbar">
-            <a href="#home" class="active">About Me</a>
-            <a href="#projects">Projects</a>
-            <a href="#resume">Resume</a>
+            <a href="#about-me">ABOUT ME</a>
+            <a href="#projects">PROJECTS</a>
+            <a href="#resume">RESUME</a>
         </nav>
 
        
-        <a href="mailto:juliannegodseyy@gmail.com" class="contact">Contact Me</a>
+        <a href="mailto:juliannegodseyy@gmail.com" class="contact-btn">Contact Me</a>
     </header>
 
 
     <main>
+
         <div>
             <section id="home" class="home">
                 <div class="home-content">
-                    <h3>Hi</h3>
-                    <h1>I'm <span>Julianne<br></span>a Full Stack Developer</h1>
-                    <p>Self- directed, detail-oriented, and professional full stack developer with experience in 
-                        designing, developing, analyzing, and implementing client-server, web and desktop-based
-                        applications using various programming languages. Expertise in system designing as well as in testing, 
-                        debugging and modifying related application code. Capable of learning new programming 
-                        languages and technologies and completing projects within specified deadlines.</p>
-
+                    <h1>JULIANNE GODSEY</h1>
+                    <h3>SOFTWARE ENGINEER</h3>
                     <div class="lang-logos">
-                        <img src="c-sharp-logo.svg" alt="C#">
-                        <img src="css-logo.svg" alt="CSS">
-                        <img src="html-logo.svg" alt="HTML">
+                        <img src="react-logo.svg" alt="REACT">
                         <img src="javascript-logo.svg" alt="JS">
+                        <img src="c-sharp-logo.png" alt="C#">
                         <img src="sql-logo.png" alt="SQL">
-                        <img src="aws-logo.svg" alt="AWS">
+                        <img src="css-logo.png" alt="CSS">
+                        <img src="html-logo.svg" alt="HTML">
                     </div>
                 </div>
-                <div class="img-box">
-                    <img src="port-img.jpg" alt="">
-                </div>  
+            </section>
+        </div>
+        <div>
+            <section id="about-me" class="about-me">
+                <div class="container">
+                    
+                    <div class="img-box">
+                        <img src="port-img.jpg" alt="">
+                        <div class="speech-bubble">
+                            Hi there! I'm Julianne!
+                        </div>
+                    </div>
+                    
+
+                    <div class="about-content">
+                    <h1>Hi, I'm <span>Julianne,</span> a Full-Stack Developer</h1>
+                    <p>I am a <em>self-directed and detail-oriented professional</em> with experience in designing, 
+                        developing, and implementing client-server, web, and desktop applications using various programming 
+                        languages. I have expertise in system design, testing, and debugging application code. I am adept 
+                        at learning new technologies and languages quickly, consistently delivering projects on time.</p>
+                        <div class="social-bar">
+                            <div class="socials">
+                                <a href="https://linkedin.com/in/julianne-godsey" class="social-logos">
+                                    <img src="linkedin-logo.svg" alt="LinkedIn-Logo">
+                                </a>
+                                <a href="https://github.com/juliannegodsey1" class="social-logos">
+                                    <img src="github-logo.svg" alt="GitHub-Logo">
+                                </a>
+                                <a href="mailto:juliannegodseyy@gmail.com" class="social-logos">
+                                    <img src="email-icon.svg" alt="Envelope-Logo">
+                                </a>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
             </section>
         </div>
     
-        <section class="social-bar">
-            <div>            
-                <h2 class="social-heading">Connect</h2>
-            </div>
-            <div class="socials">
-                <a href="https://linkedin.com/in/julianne-godsey" class="social-logos">
-                    <img src="linkedin-logo.svg" alt="LinkedIn-Logo">
-                </a>
-                <a href="https://github.com/juliannegodsey1" class="social-logos">
-                    <img src="github-logo.svg" alt="GitHub-Logo">
-                </a>
-                <a href="mailto:juliannegodseyy@gmail.com" class="social-logos">
-                    <img src="email-icon.svg" alt="Envelope-Logo">
-                </a>
-            </div>
-        </section>
+        
 
         <section id="projects" class="projects">
             <div class="projects-content">
                 <h2>Projects</h2>
 
                 <div class="project">
-                    <h3>CRUD Cat Adoption Database Website <a href="https://github.com/juliannegodsey1/MVC-Pet-Store">LINK</a></h3>
+                    <h3>CRUD Cat Adoption Database Website <a href="https://github.com/juliannegodsey1/MVC-Pet-Store"><i class='bx bx-link-external'></i></a></h3>
                      <ul class="list">
-                         <li>Developed a cat database model in C#, encompassing key properties</li>
-                         <li>Engineered CRUD functionality within a cat repository to handle cat data operations, following the MVC architectural pattern, and integrated SQL commands within CRUD methods to interact with the database for efficient data storage and retrieval.</li>
-                         <li>Designed HTML/CSS view pages using ASP.Net MVC framework  to implement a user-friendly interface for managing cat profiles and displaying a comprehensive catalog of available cats.</li>
+                         <li>Developed a C# cat database model, highlighting and displaying key properties of each cat in the system.</li>
+                         <li>Engineered CRUD functionality within a cat repository following MVC architecture, integrating SQL commands for efficient data management.</li>
+                         <li>Designed user-friendly HTML/CSS view pages using ASP.Net MVC framework for cat profile management and catalog display.</li>
                     </ul>
                  </div>
 
 
                     <div class="project">
-                        <h3>CSV Parsing and Geolocation TDD Project | <a href="https://github.com/juliannegodsey1/GeolocationApp">LINK</a></h3>
+                        <h3>CSV Parsing and Geolocation TDD Project <a href="https://github.com/juliannegodsey1/GeolocationApp"><i class='bx bx-link-external'></i></a></h3>
                         <ul class="list">
-                            <li>Application developed in Visual Studio using C#, .Net Core, and xUnit testing</li>
-                            <li>Parses data from a CSV document containing city names and their corresponding coordinates for various restaurants, ensuring accurate parsing of location name, latitude, and longitude.</li>
-                            <li>Utilizes test-driven development to handle invalid or missing data, returning null for out-of-bounds or unparsable data, while calculating distances between parsed coordinates to find the two furthest-apart restaurants.</li>
+                            <li>Developed in Visual Studio using C#, .Net Core, and xUnit testing.</li>
+                            <li>Parsed city names and coordinates from a CSV document to calculate distances between locations, identifying the two restaurants with the greatest distance.</li>
+                            <li>Utilized test-driven development to handle invalid or missing data, ensuring accuracy in parsing location, latitude, and longitude.</li>
+                            <li>Conducted preliminary code review, testing, and debugging to ensure reliable performance and identify potential issues early in the development process.</li>
                         </ul>
                     </div>
 
                     <div class="project">
-                        <h3>KanyeREST | <a href="https://github.com/juliannegodsey1/KanyeAPI">LINK</a></h3>
+                        <h3>KanyeREST <a href="https://github.com/juliannegodsey1/KanyeAPI"><i class='bx bx-link-external'></i></a></h3>
                          <ul class="list">
-                             <li>The application simulates a dialogue between Kanye West and Ron Swanson by leveraging external API requests using C# and .NET Core.</li>
-                             <li>Utilizes the Newtonsoft.JSON NuGet  package to make API calls to the Kanye API, retrieving JSON data representing Kanye West’s quotes, which are parsed and stored as a string named “kanyeQuote”.</li>
-                             <li>Interacts with the Ron Swanson API, fetching JSON arrays containing quotes attributed to Ron Swanson, which are then converted into strings labeled “swansonQuote”.</li>
-                             <li>Seamlessly alternates between making requests to the Kanye API and the Ron Swanson API, creating a simulated dialogue between the two.</li>
+                             <li>Developed an application simulating dialogue between Kanye West and Ron Swanson via external API requests to create engaging and entertaining interactions for users.</li>
+                             <li>Utilized Newtonsoft.JSON to retrieve Kanye West’s quotes as “kanyeQuote” strings.</li>
+                             <li>Integrated the Ron Swanson API to convert JSON quotes to “swansonQuote” strings.</li>
+                             <li>Engineered alternating API calls to create a dynamic simulated dialogue between the two characters.</li>
                         </ul>
                      </div>
             </div>
@@ -108,88 +125,7 @@
 
         <section id="resume" class="resume">
             <div class="resume-content">
-                <h2>Resume</h2>
-                <h3>Certifications</h3>
-                <div class="resume-item">
-                    <h4>Full Stack Software Engineering | TrueCoders Coding Academy | September 2023-April 2024</h4>
-                     <ul class="resume-list">
-                         <li>Certification for the successful learning and achieving proficiency in C#, SQL, HTML, CSS, JavaScript, & ASP.Net MVC</li>
-                     </ul>
-                 </div>
-                <h3>Education</h3>
-                    <div class="resume-item">
-                       <h4>TrueCoders: Advanced Technical Training | Birmingham, AL | 2023-2024</h4>
-                        <ul class="resume-list">
-                            <li>Project-based training in programming languages and other technical 
-                                skills, such as SQL, C#, .NET Core, Git, ASP.NET MVC, HTML, CSS, and 
-                                JavaScript, developed by building multiple C# and SQL projects in Visual 
-                                Studio and Visual Studio Code</li>
-                             <li>C# and SQL Projects were tracked in Git and GitHub for source control</li>
-                             <li>Managed SQL databases using the CRUD operations in MySQL</li>
-                        </ul>
-                    </div>
-                    <div class="resume-item">
-                       <h4>Kean University | Union, NJ | 2019-2020</h4>
-                        <ul class="resume-list">
-                            <li>Bachelor's in Psychology</li>
-                             <li>Magna Cum Laude</li>
-                        </ul>
-                     </div>
-                     <div class="resume-item">
-                        <h4>Union County College | Cranford, NJ | 2016-2018</h4>
-                        <ul class="resume-list">
-                             <li>Associate's in Psychology</li>
-                             <li>Honor's Society</li>
-                       </ul>
-                    </div>
-
-                    <h5>Work Experience</h5>
-                    <div class="resume-item">
-                          <h4>Private Nanny | NJ | 2019-Current</h4>
-                        <ul class="resume-list">
-                            <li>Safely transport children to and from activities and school</li>
-                            <li>Coordinate engaging activities to stimulate their development</li>
-                            <li>Assist with homework assignments and ensure completion</li>
-                            <li>Maintain a safe environment and prioritize children's well-being</li>
-                            <li>Engage in interactive play to encourage learning and creativity</li>
-                            <li>Prepare nutritious snacks and light meals for the children</li>
-                       </ul>
-                    </div>
-                    <div class="resume-item">
-                        <h4>Assistant Teacher | LightBridge Academy | Westfield, NJ | 2019</h4>
-                      <ul class="resume-list">
-                          <li>Assisted in implementing lessons and classroom activities for children 
-                            aged 2.5-3.5 years old</li>
-                          <li>Facilitated lunchtime routines and ensured safe food handling practices, 
-                            especially for children with allergies</li>
-                          <li>Received CPR training for infants, children, and adults to ensure readiness 
-                            in case of emergencies</li>
-                          <li>Monitored children closely to ensure their safety and well-being throughout the day</li>
-                          <li>Provided assistance with potty training and supported children in developing independence</li>
-                          <li>Coordinated educational and fun activities to promote learning and engagement</li>
-                          <li>Utilized a dedicated app to provide parents with real-time updates on their child's activities 
-                            and development</li>
-                          <li>Collaborated closely with the main teacher to support the overall classroom environment</li>
-                     </ul>
-                  </div>
-                  <div class="resume-item">
-                    <h4>Team Member | QuickChek | Clark, NJ | 2015-2019</h4>
-                  <ul class="resume-list">
-                      <li>Provided exceptional customer service by greeting customers, assisting with inquiries, and ensuring 
-                        a positive experience</li>
-                      <li>Operated cash registers and handled transactions accurately and efficiently</li>
-                      <li>Responsible for counting the safe and ensuring accurate cash management</li>
-                      <li>Stocked shelves, rotated inventory, and maintained a clean and organized store environment</li>
-                      <li>Prepared food and beverages according to company standards and customer preferences</li>
-                      <li>Followed proper food safety and sanitation procedures to maintain product quality and freshness</li>
-                      <li>Collaborated with team members to achieve store goals and targets</li>
-                      <li>Demonstrated strong multitasking abilities and effective time management skills to handle various 
-                        responsibilities simultaneously</li>
-                      <li>Participated in training programs to enhance product knowledge and customer service skills</li>
-                      <li>Demonstrated flexibility in performing various tasks as needed to support store operations</li>
-
-                 </ul>
-              </div>
+                <a href="RESUME.pdf" download="Julianne_Godsey_Resume" class="resume-download">Download My Resume <i class='bx bx-download' style='color:#ffffff' ></i></a>
             </div>
         </section>
     </main>
@@ -200,13 +136,13 @@
 
         <ul class="list">
             <li>
-                <a href="#home" id="about-me-link">About Me</a>
+                <a href="#about-me" id="about-me-link">About Me</a>
             </li>
             <li>
                 <a href="#projects" id="project-footer-link">Projects</a>
             </li>
             <li>
-                <a href="#resume" id="resume-footer-link">Resume</a>
+                <a href="#resume">Resume</a>
             </li>
             <li>
                 <a href="mailto:juliannegodseyy@gmail.com" id="contact-footer-link">Contact</a>
